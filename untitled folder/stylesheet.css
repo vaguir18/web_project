@@ -1,0 +1,243 @@
+/*INDEX
+    BODY
+    SIDEBAR
+    CONTENT
+    FOOTER
+    TABLE
+    DIV
+    IMAGES
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30;
+    font-family: Georgia, serif;
+    color: #000000;
+    background-color: #7f4f1;
+    background-image: url("img/beige.jpg");
+}
+
+
+
+/* SIDEBAR OPTIONS FOR CONTENT PAGES*/
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
+    background-color: #4c3f3f;
+    overflow-x: hidden;
+}
+    /* Side navigation links */
+    .sidenav a {
+        color: #ab9b9b;
+        font-weight: bold;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+    }
+        /* Change color on hover */
+        .sidenav a:hover {
+            background-color: #d5c6c6;
+            color: #4c3f3f;
+        }
+.sidenav2 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
+    background-color: #151f0f;
+    overflow-x: hidden;
+}
+    /* Side navigation links */
+    .sidenav2 a {
+        color: #adb4a9;
+        font-weight: bold;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+    }
+        /* Change color on hover */
+        .sidenav2 a:hover {
+            background-color: #adb4a9;
+            color: #151f0f;
+        }
+.sidenav3 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
+    background-color: #0c1727;
+    overflow-x: hidden;
+}
+    /* Side navigation links */
+    .sidenav3 a {
+        color: #b9c5d7;
+        font-weight: bold;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+    }
+        /* Change color on hover */
+        .sidenav3 a:hover {
+            background-color: #b9c5d7;
+            color: #0c1727;
+        }
+.sidenav4 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
+    background-color: #480303;
+    overflow-x: hidden;
+}
+    /* Side navigation links */
+    .sidenav4 a {
+        color: #a97a7a;
+        font-weight: bold;
+        padding: 16px;
+        text-decoration: none;
+        display: block;
+    }
+        /* Change color on hover */
+        .sidenav4 a:hover {
+            background-color: #a97a7a;
+            color: #480303;
+        }
+/* CONTENT OPTIONS */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+    color: #4c3f3f;
+    max-width: 600px;
+}
+.content2 {
+    margin-left: 200px;
+    padding-left: 20px;
+    color: #151f0f;
+    max-width: 600px;
+}
+.content3 {
+    margin-left: 200px;
+    padding-left: 20px;
+    color: #0c1727;
+    max-width: 600px;
+}
+.content4 {
+    margin-left: 200px;
+    padding-left: 20px;
+    color: #480303;
+    max-width: 600px;
+}
+/* FOOTER OPTIONS */
+.footer {
+    color: #d9ccbd;
+    background-color: #f5eee2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50 px;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+/*TABLE SETUP*/
+table.GeneratedTable {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-width: 10px;
+    border-color: transparent;
+    border-style: solid;
+    color: #151f0f;
+    text-align: center;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 10px;
+    border-color: transparent;
+    border-style: solid;
+    padding: 08px;
+}
+
+table.GeneratedTable thead {
+    background-color: transparent;
+}
+
+/*DIV CLASSES HTML CALL IS <div class="fancy">*/
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* <div class="relative">
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.*/
+.relative {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+}
+
+/* <div class="absolute"> absolute This element is absolutely-positioned. It's positioned relative to its parent.*/
+.absolute {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+}
+
+/*fixed*/
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: transparent;
+}
+
+/* "https://learnlayout.com/clearfix" */
+.clearfix {
+    overflow: auto;
+}
+
+/*IMAGES*/
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+/*IMAGE RESIZER*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*img floats so text can wrap*/
+.imgrightfloat {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 40%;
+}
+.imgleftfloat {
+    float: left;
+    margin: 0 0 1em 1em;
+    width: 40%;
+}
