@@ -193,6 +193,7 @@ table, th, td {
     /* center table horizontally */
 table {
     margin: 0 auto;
+    border-color: transparent;
 }
     }
     
