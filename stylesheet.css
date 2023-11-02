@@ -84,7 +84,7 @@ body {
     font-size: 35px;
 }
 
-/* Page content */
+/* PAGE CONTENT */
 .content {
     padding: 16px;
 }
@@ -96,7 +96,7 @@ body {
     margin-right: 2rem;
 }
 
-/* COLUMNS */
+/* COLUMN OPTIONS */
 .column {
     float: left;
     width: 33.33%;
@@ -172,7 +172,7 @@ h1 {
     font-size: 40px;
 }
 
-/*Table formatting*/
+/*TABLE FORMATTING*/
 table, th, td {
     border: 1px solid Black;
     }
@@ -192,6 +192,7 @@ table, th, td {
       table {
       width: 80%;}
     }
+/*COLOR FORMATTING*/
 #Berryblock {
     background-color: #931548;
 }
@@ -223,3 +224,18 @@ td {
     display: flex;
     flex-direction: row;
 }
+
+.discImgZoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+    .discImgZoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+/*IMAGE HOVER*/
