@@ -122,21 +122,20 @@ body {
     background-image: url("img/lc.jpg");
     background-position: right;
     flex: 1;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 .column.right {
     width: 10%;
     background-image: url("img/rc.jpg");
     background-position: left;
     flex: 1;
-    
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 /* MIDDLE COLUMNS */
 .column.middle {
     width: 60%;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
 
 /*HORIZONTAL DIVS*/
@@ -180,10 +179,11 @@ body {
 
 /*TEXT FORMATTING*/
 h2 {
-    font-family: 'Chakra Petch', sans-serif;
+    
     color: #931548;
     text-align: center;
     font-size: 40px;
+    border: 4px dashed #581480;
 }
 
 h1 {
@@ -192,10 +192,10 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
-
+ /*not using yet*/
 h3 {
     font-family: 'Chakra Petch', sans-serif;
-    color: #021089;
+    color: #222222;
     text-align: center;
     font-size: 40px;
 }
