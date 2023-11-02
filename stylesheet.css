@@ -172,6 +172,17 @@ h1 {
     font-size: 40px;
 }
 
+/* DOUBLE SPACING FOR FILM LIST */
+#filmlist ul {
+    line-height: 10; 
+}
+
+#filmlist a {
+    color: #221089;
+}
+    #filmlist a:hover {
+        color: #901381;
+    }
 /*TABLE FORMATTING*/
 table, th, td {
     border: 1px solid Black;
