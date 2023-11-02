@@ -173,8 +173,10 @@ h1 {
 }
 
 /* DOUBLE SPACING FOR FILM LIST */
-#filmlist ul {
-    line-height: 10; 
+#filmlist {
+    line-height: 2;
+    margin-left: 20px;
+    text-align: left;
 }
 
 #filmlist a {
@@ -185,12 +187,14 @@ h1 {
     }
 /*TABLE FORMATTING*/
 table, th, td {
-    border: 1px solid Black;
+    border: 1px transparent;
     }
     
-    /* make the table a 100% wide by default */
-    table {
-    width: 100%;}
+    /* center table horizontally */
+table {
+    margin: 0 auto;
+}
+    }
     
     /* if the browser window is at least 800px-s wide: */
     @media screen and (min-width: 800px) {
@@ -203,6 +207,11 @@ table, th, td {
       table {
       width: 80%;}
     }
+table img {
+    max-width: 70%;
+    height: auto; /* Maintain aspect ratio */
+}
+
 /*COLOR FORMATTING*/
 #Berryblock {
     background-color: #931548;
