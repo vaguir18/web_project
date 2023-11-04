@@ -84,6 +84,8 @@ body {
     text-align: center;
     font-size: 100px;
     color: #581480;
+    position: sticky;
+    top: 50px;
 }
 
 /* PAGE CONTENT */
@@ -198,10 +200,6 @@ h3 {
     font-size: 40px;
 }
 
-#filmlist a:hover {
-    color: #901381;
-}
-
 /* DOUBLE SPACING FOR FILM LIST */
 #filmlist {
     line-height: 2;
@@ -215,6 +213,7 @@ h3 {
     #filmlist a:hover {
         color: #901381;
     }
+
 /*TABLE FORMATTING*/
 table, th, td {
     border: 1px transparent;
@@ -235,9 +234,20 @@ table, th, td {
       table {
       width: 80%;}
     }
+
+#disc {
+    border-left: 1px solid green;
+}
+
+#disc td{
+    text-align: justify;
+}
+
 table img {
     max-width: 70%;
     height: auto; /* Maintain aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*COLOR FORMATTING*/
