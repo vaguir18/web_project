@@ -179,17 +179,16 @@ body {
 }
 
 /*TEXT FORMATTING*/
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 40px;
+}
 h2 {
     color: #931548;
     text-align: center;
     font-size: 40px;
     border: 4px dashed #581480;
-}
-
-h1 {
-    color: green;
-    text-align: center;
-    font-size: 40px;
 }
  /*not using yet*/
 h3 {
@@ -243,6 +242,7 @@ table img {
  /*DISCOGRAPHY FORMATTING*/
 .discImgContainer {
     max-width: 33.33%;
+    border-bottom: 4px dashed #581480;
 }
 
     .discImgContainer img {
@@ -267,6 +267,10 @@ table img {
     align-items: baseline;
 }
 
+#discList td:nth-child(3) {
+    border-bottom: 4px dashed #581480;
+}
+}
 
 /*COLOR FORMATTING*/
 #Berryblock {
