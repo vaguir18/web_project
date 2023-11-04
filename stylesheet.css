@@ -107,23 +107,25 @@ body {
 }
 
 /* COLUMN OPTIONS*/
+.column {
+    float: left;
+    flex: 1;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
 /*SIDE COLUMNS*/
 .column.left {
-    width: 20%;
     background-image: url("img/lc.jpg");
     background-position: right;
-    flex: 1;
 }
 .column.right {
-    width: 20%;
     background-image: url("img/rc.jpg");
     background-position: left;
-    flex: 1;
 }
 
 /* MIDDLE COLUMNS */
 .column.middle {
-    width: 60%;
     text-align: justify;
 }
 
