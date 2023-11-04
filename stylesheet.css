@@ -233,9 +233,16 @@ table, th, td {
       width: 80%;}
     }
 
+table img {
+    max-width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  /*DISCOGRAPHY FORMATTING*/
 .discImgContainer {
-    max-width: 30%;
+    max-width: 33.33%;
 }
 
     .discImgContainer img {
@@ -247,12 +254,12 @@ table, th, td {
     flex-direction: row;
 }
 
-ol {
+#discList ol {
     list-style: none;
     padding: 0;
 }
 
-li {
+#discList li {
     margin: 0;
     padding: 0;
     display: flex;
@@ -260,16 +267,6 @@ li {
     align-items: baseline;
 }
 
-.time {
-    text-align: right;
-}
-
-table img {
-    max-width: 70%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*COLOR FORMATTING*/
 #Berryblock {
