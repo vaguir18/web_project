@@ -179,7 +179,6 @@ body {
 
 /*TEXT FORMATTING*/
 h2 {
-    
     color: #931548;
     text-align: center;
     font-size: 40px;
@@ -187,14 +186,12 @@ h2 {
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
     color: green;
     text-align: center;
     font-size: 40px;
 }
  /*not using yet*/
 h3 {
-    font-family: 'Chakra Petch', sans-serif;
     color: #222222;
     text-align: center;
     font-size: 40px;
@@ -220,16 +217,12 @@ h3 {
 /*TABLE FORMATTING*/
 table, th, td {
     border: 1px transparent;
-    }
-    
-    /* center table horizontally */
-table {
     margin-left: auto;
     margin-right: auto;
-    border-color: transparent;
-}
-    }
-    
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}    
     /* if the browser window is at least 800px-s wide: */
     @media screen and (min-width: 800px) {
       table {
