@@ -15,7 +15,6 @@ body {
     overflow: hidden;
     background-color: #221089;
     padding: 5 px;
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -96,6 +95,10 @@ body {
     border-radius: 5px;
 }
 
+.vertical-space {
+    margin-top: 60px;
+}
+
 /*CONTAINER FOR COLUMNS*/
 .container {
     display: flex;
@@ -103,40 +106,25 @@ body {
     margin-right: 2rem;
 }
 
-/* COLUMN OPTIONS */
-.column {
-    float: left;
-    width: 33.33%;
-    flex: 1;
-    border: 1px solid white;
-    padding: 1rem;
-}
-#columncenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* COLUMN OPTIONS*/
 /*SIDE COLUMNS*/
 .column.left {
-    width: 10%;
+    width: 20%;
     background-image: url("img/lc.jpg");
     background-position: right;
     flex: 1;
-    /*padding: 1rem;*/
 }
 .column.right {
-    width: 10%;
+    width: 20%;
     background-image: url("img/rc.jpg");
     background-position: left;
     flex: 1;
-    /*padding: 1rem;*/
 }
 
 /* MIDDLE COLUMNS */
 .column.middle {
     width: 60%;
-    /*padding: 1rem;*/
+    text-align: justify;
 }
 
 /*HORIZONTAL DIVS*/
@@ -147,7 +135,6 @@ body {
     background-color: transparent;
     border: 10px dashed #581480;
     padding: 10px;
-    font-family: 'Chakra Petch', sans-serif;
 }
 
 .horizontal-divs a {
@@ -217,7 +204,7 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
-    color: black;
+    color: #221089;
     text-align: center;
 }
     /* if the browser window is at least 800px-s wide: */
@@ -233,7 +220,7 @@ table, th, td {
     }
 
 table img {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -254,12 +241,16 @@ table img {
     flex-direction: row;
 }
 
-#discList ol {
+.discList {
+
+}
+
+.discList ol {
     list-style: none;
     padding: 0;
 }
 
-#discList li {
+.discList li {
     margin: 0;
     padding: 0;
     display: flex;
@@ -267,8 +258,33 @@ table img {
     align-items: baseline;
 }
 
-#discList td:nth-child(3) {
+.image-cell {
+    text-align: center; 
+    padding: 20px 10px; 
+}
+
+.image-cell img {
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 10px; 
+}
+
+.image-cell a {
+    display: block; 
+    text-align: center; 
+    margin-bottom: 10px; /* Add space below the hyperlink */
+}
+
+.image-cell div {
+    /* Any styling for the 'self-titled' div if needed */
+}
+
+.discList td:nth-child(3) {
     border-bottom: 4px dashed #581480;
+}
+
+.vertical-space {
+    margin-top: 60px; 
 }
 
 /*COLOR FORMATTING*/
