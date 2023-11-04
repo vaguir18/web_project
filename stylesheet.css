@@ -236,7 +236,7 @@ table, th, td {
     }
 
 #disc {
-    border-left: 1px solid green;
+    border-spacing: 50px;
 }
 
 #disc td{
