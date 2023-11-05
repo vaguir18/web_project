@@ -208,40 +208,22 @@ table, th, td {
     color: #221089;
     text-align: justify-all;
 }
-    /* if the browser window is at least 800px wide: */
-    @media screen and (min-width: 800px) {
-        table {
-            width: 90%;
-        }
-    }
-    /* if the browser window is at least 1000px wide: */
-    @media screen and (min-width: 1000px) {
-        table {
-            width: 80%;
-        }
-    }
-
-    /* Set a fixed width for the third column */
-    table th:nth-child(3), table td:nth-child(3) {
-        min-width: 300px; /* Adjust the width as needed */
-        /* Add other styling as needed */
-    }
 
 table img {
-    max-width: 90%;
+    max-width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* DISCOGRAPHY FORMATTING */
+ /*DISCOGRAPHY FORMATTING*/
 .discImgContainer {
     max-width: 50%;
     border-bottom: 4px dashed #581480;
 }
 
     .discImgContainer img {
-        max-width: 90%;
+        width: 100%;
     }
 
 .discImages {
@@ -249,36 +231,38 @@ table img {
     flex-direction: row;
 }
 
-.discList {
+.discList table th:nth-child(3), table td:nth-child(3) {
+    min-width: 400px; /* Adjust the width as needed */
+    /* Add other styling as needed */
 }
 
-    .discList ol {
-        list-style: none;
-        padding: 0;
-    }
+.discList ol {
+    list-style: none;
+    padding: 0;
+}
 
-    .discList li {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
+.discList li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 .image-cell {
-    text-align: center;
+    text-align: center; 
     padding: 10px;
 }
 
-image-cell img {
-    display: block;
+.image-cell img {
+    display: block; 
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
 
-image-cell a {
-    display: block;
-    text-align: center;
+.image-cell a {
+    display: block; 
+    text-align: center; 
     margin-bottom: 10px; /* Add space below the hyperlink */
 }
 
@@ -290,8 +274,8 @@ image-cell a {
     border-bottom: 4px dashed #581480;
 }
 
-vertical-space {
-    margin-top: 60px;
+.vertical-space {
+    margin-top: 60px; 
 }
 
 /*COLOR FORMATTING*/
