@@ -130,6 +130,10 @@ h3 {
     margin-top: 60px;
 }
 
+#smallverticalspace {
+    margin-top: 40px;
+}
+
 /*CONTAINER FOR COLUMNS*/
 .container {
     display: flex;
