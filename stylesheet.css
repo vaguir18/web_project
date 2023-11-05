@@ -10,6 +10,27 @@ body {
     background-color: #eaf1a2;
     color: #021089;
 }
+
+/*TEXT FORMATTING*/
+h1 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    color: #931548;
+    text-align: center;
+    font-size: 40px;
+    border: 4px dashed #581480;
+}
+/*not using yet*/
+h3 {
+    color: #222222;
+    text-align: center;
+    font-size: 40px;
+}
+
 /*NAVIGATION BAR*/
 .topnav {
     overflow: hidden;
@@ -85,6 +106,16 @@ body {
     color: #581480;
 }
 
+/* FOOTER */
+.footer {
+    background-color: #ccdd18;
+    color: #221089;
+    padding: 5 px;
+    text-align: center;
+    position: sticky;
+    border-radius: 5px;
+}
+
 /* PAGE CONTENT */
 .content {
     flex: 1;
@@ -149,42 +180,6 @@ body {
     .horizontal-divs a:hover {
         color: #901381;
     }
-
-/* FOOTER */
-.footer {
-    background-color: #ccdd18;
-    color: #221089;
-    padding: 5 px;
-    text-align: center;
-    position: sticky;
-    border-radius: 5px;
-}
-
-/* Responsive columns that smoosh when page is resized */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
-/*TEXT FORMATTING*/
-h1 {
-    color: green;
-    text-align: center;
-    font-size: 30px;
-}
-h2 {
-    color: #931548;
-    text-align: center;
-    font-size: 40px;
-    border: 4px dashed #581480;
-}
- /*not using yet*/
-h3 {
-    color: #222222;
-    text-align: center;
-    font-size: 40px;
-}
 
 /* DOUBLE SPACING FOR FILM LIST */
 #filmlist {
@@ -279,6 +274,10 @@ table img {
 
 .image-cell div {
     /* Any styling for the 'self-titled' div if needed */
+}
+
+.discList tr:first-child td:nth-child(3) {
+    border-top: 4px dashed #581480;
 }
 
 .discList td:nth-child(3) {
