@@ -245,8 +245,8 @@ table img {
 }
 
 .discList table th:nth-child(3), table td:nth-child(3) {
-    min-width: 400px; /* Adjust the width as needed */
-    /* Add other styling as needed */
+    min-width: 400px; /* This code fixed the table from resizing and overwriting the formatting*/
+
 }
 
 .discList ol {
@@ -276,7 +276,7 @@ table img {
 .image-cell a {
     display: block; 
     text-align: center; 
-    margin-bottom: 10px; /* Add space below the hyperlink */
+    margin-bottom: 10px; 
 }
 
 .discList tr:first-child td:nth-child(3) {
@@ -291,7 +291,8 @@ table img {
     margin-top: 60px; 
 }
 
-/*COLOR FORMATTING*/
+/*COLOR FORMATTING--not used in final version
+of website but was helpful during coding and might be used again*/
 #Berryblock {
     background-color: #931548;
     color: white;
