@@ -69,7 +69,7 @@ h3 {
     .topnav .icon {
         display: none;
     }
-
+/*Phil, the tech tutor helped me with this code. We wrote it together.*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -81,6 +81,7 @@ h3 {
     }
 }
 
+/*Phil, the tech tutor helped me with this code. We wrote it together.*/
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
@@ -245,7 +246,7 @@ table img {
 }
 
 .discList table th:nth-child(3), table td:nth-child(3) {
-    min-width: 400px; /* This code fixed the table from resizing and overwriting the formatting*/
+    min-width: 400px; /* This code fixed the table from resizing and overwriting the formatting randomly. */
 
 }
 
