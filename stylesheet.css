@@ -24,7 +24,7 @@ h2 {
     font-size: 40px;
     border: 4px dashed #581480;
 }
-/*not using yet*/
+
 h3 {
     color: #901381;
     text-align: left;
@@ -37,7 +37,7 @@ h3 {
 .topnav {
     overflow: hidden;
     background-color: #221089;
-    padding: 5 px;
+    padding: 5px;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -50,7 +50,7 @@ h3 {
         display: block;
         color: #ffffff;
         text-align: center;
-        padding: 14px 16px;
+        padding: 16px;
         text-decoration: none;
         font-size: 17px;
     }
