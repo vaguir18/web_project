@@ -37,7 +37,7 @@ h3 {
 .topnav {
     overflow: hidden;
     background-color: #221089;
-    padding: 5px;
+    /*padding: 5px;*/
     font-weight: bold;
     text-align: center;
     width: 100%;
